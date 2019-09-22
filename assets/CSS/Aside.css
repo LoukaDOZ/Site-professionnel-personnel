@@ -1,0 +1,28 @@
+#aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(30,30,30);
+  color: white;
+  font-size: 120%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 100%;
+}
+
+#aside a {
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+  padding: 5%;
+  display: list-item;
+  text-align: left;
+}
+
+#aside a:first-of-type {
+  margin-top: 30%;
+}
+
+#aside a:hover {
+  background-color: rgb(150,0,200);
+}

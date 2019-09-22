@@ -1,0 +1,79 @@
+#contact {
+  font-size: 130%;
+}
+
+#contact img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 14px;
+}
+
+.contenu h4 {
+  margin: 0;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.contenu h4:first-of-type {
+  margin-top: 1%;
+}
+
+.contenu textarea {
+  resize: none;
+  border: none;
+  background-color: white;
+  box-shadow: -5px 5px 0px rgb(150,150,150);
+  width: 80%;
+  height: 200px;
+  padding: 1%;
+  font-size: 150%;
+}
+
+.contenu input[type="radio"] {
+  display: none;
+}
+
+.contenu label {
+  margin-right: 3%;
+  background-color: white;
+  padding: 1%;
+  transition: 0.3s;
+}
+
+.contenu label:hover {
+  box-shadow: -5px 5px 0px rgb(150,150,150);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contenu input[type="radio"]:checked + label {
+  background-color: rgb(0,120,225);
+  color: white;
+}
+
+.contenu input[type="submit"] {
+  margin-top: 2%;
+  background-color: white;
+  font-size: 100%;
+  padding: 1%;
+  border: none;
+  cursor: pointer;
+  box-shadow: -5px 5px 0px rgb(150,150,150);
+  transition: 0.3s;
+}
+
+.contenu input[type="submit"]:hover {
+  background-color: rgb(0,120,225);
+  color: white;
+  transition: 0.3s;
+}
+
+.error {
+  color: rgb(255,50,50);
+}
+
+.obligatoire {
+  color: rgb(0,120,225);
+  font-weight: normal;
+}
