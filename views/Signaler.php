@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Contact'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries/Queries_signaler'); ?>" />
     <script src="<?php echo js('Mail'); ?>"></script>
 
 </head>

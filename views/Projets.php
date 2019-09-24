@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Projets'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries/Queries_projets'); ?>" />
 
 </head>
 
@@ -28,7 +29,7 @@
                 $projet['titre'] = str_replace(' ','-',$projet['titre']);
                 $projet['titre'] = str_replace('/','-',$projet['titre']);
                 $projet['titre'] = str_replace('é','e',$projet['titre']);
-                echo "<a href='".base_url('Projets/projet/'.$projet['titre'])."'><div id='decouvrir'>";
+                echo "<a class='see' href='".base_url('Projets/projet/'.$projet['titre'])."'><div id='decouvrir'>";
                   echo "<p>Détails</p><img src='".image('fleche_short_droite')."'>";
                 echo "</div></a>";
                 echo "<div class='liste_langages'>";

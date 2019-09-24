@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Projets'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries/Queries_projet_description'); ?>" />
 
 </head>
 
@@ -12,6 +13,11 @@
   <div id='article'>
     <h1 class='page_title'>Site professionnel/personnel<div class="fil"><?= $fil ?></div></h1>
     <div class='contenu'>
+
+      <div id='retour_phone'>
+        <a href="<?= base_url('Projets'); ?>" class='naviguation'><img src="<?= image('fleche_short_gauche') ?>">Retour</a>
+      </div>
+      
       <span class="ancres" id='maj'></span>
       <h3>Mises à jour</h3>
       <div class='row'>

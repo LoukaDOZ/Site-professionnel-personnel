@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('CV'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries/Queries_CV'); ?>" />
 
 </head>
 
@@ -200,13 +201,13 @@
             <div>
               Français
             </div>
-            <div>
+            <div class="do-not-break">
               Langue natale
             </div>
             <div>
               Anglais
             </div>
-            <div>
+            <div class="do-not-break">
               Bon niveau
             </div>
           </div>
@@ -255,7 +256,7 @@
             <div>
               Unreal Engine 4
             </div>
-            <div>
+            <div class="do-not-break">
               Début d'apprentissage<br>
               (Autodidacte)
             </div>
@@ -265,25 +266,25 @@
             <div>
               Sports divers pratiqués en autonomie
             </div>
-            <div>
+            <div class="do-not-break">
               2019 - aujourd'hui
             </div>
             <div>
               Tennis
             </div>
-            <div>
+            <div class="do-not-break">
               2008 - 2018 (30/4)
             </div>
             <div>
               Guitare
             </div>
-            <div>
+            <div class="do-not-break">
               2012 - 2013
             </div>
             <div>
               Rugby
             </div>
-            <div>
+            <div class="do-not-break">
               2006 - 2007
             </div>
           </div>

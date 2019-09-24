@@ -1,0 +1,70 @@
+@media screen and (max-width: 980px) {
+ .page_title {
+  font-size: 90% !important;
+ }
+
+ #nav a {
+ 	font-size: 180% !important;
+ }
+
+ #article {
+ 	margin-left: 2% !important;
+ }
+
+ #aside {
+ 	display: none;
+ }
+
+ #footer {
+  margin-bottom: 2% !important;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+ }
+
+ #footer .link {
+  margin-left: -2% !important;
+  font-size: 150% !important;
+}
+
+#footer .link ul li {
+  padding-left: 10px !important
+}
+
+ .contenu {
+ 	font-size: 60% !important;
+ }
+
+ .contenu h2 {
+ 	font-size: 100% !important;
+ 	margin-bottom: 3% !important;
+ }
+
+ .contenu h2:not(:first-of-type) {
+ 	margin-top: 3% !important;
+ }
+
+ .contenu h3,  .contenu div h3 {
+ 	font-size: 230% !important;
+ }
+
+ .contenu h4 {
+ 	font-size: 250% !important;
+ }
+
+ .contenu ul li {
+  font-size: 250% !important;
+ }
+
+ .contenu textarea {
+ 	font-size: auto !important;
+ }
+
+ .contenu #msg_contenu, .contenu #pb_contenu {
+ 	font-size: 35px !important;
+ }
+
+ .contenu input[type="submit"] {
+ 	font-size: 230% !important;
+ 	width: 10% !important;
+ }
+}

@@ -24,7 +24,7 @@
           echo "<a href='".base_url($retour['ref'])."' class='naviguation'><img src='".image('fleche_short_gauche')."'>Retour</a>";
         }else{
 
-          echo "<div id='retour' style='display:none;'>";
+          echo "<div style='display:none;'>";
         }
       ?>
   	</div>

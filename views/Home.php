@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="<?= css('Home'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries/Queries'); ?>" />
 </head>
   <body>
     <div id='article'>

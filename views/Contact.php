@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Contact'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries/Queries'); ?>" />
     <script src="<?php echo js('Mail'); ?>"></script>
 
 </head>
@@ -50,7 +51,7 @@
 
       <h4 id='msg'><span class='obligatoire'>*</span> Contenu du mail :</h4>
       <div class="error" id="msg_error"><p id="msg_error"></p></div>
-      <textarea id="msg_contenu" name='msg' placeholder="Entrez le contenu du mail"><?= set_value('msg'); ?></textarea>
+      <textarea id="msg_contenu" name="msg" placeholder="Entrez le contenu du mail"><?= set_value('msg'); ?></textarea>
 
       <br><input type="submit" onclick='mail()'></input>
     </div>

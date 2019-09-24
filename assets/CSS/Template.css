@@ -180,7 +180,7 @@ nav a:hover {
 .link ul li {
   list-style: none;
   border-left: solid 2px white;
-  padding-left: 10%;
+  padding-left: 10px;
 }
 
 .link ul li a {
