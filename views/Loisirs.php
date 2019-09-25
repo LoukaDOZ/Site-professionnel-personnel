@@ -36,7 +36,8 @@
   		J'ai plutôt tendance à apprécier les sports rapides ou en équipe, comme les sports de raquette en général, le tennis, le badminton, le tennis de table ou aussi le rugby par exemple.
 
   		<h2>La musique</h2>
-  		Au niveau musical, j'ai une préférence pour la batterie et la guitare électrique donc plus généralement la musique rock. C'est un style de musique qui produit de l'adrénaline et me donne de l'énergie.
+  		Au niveau musical, j'ai une préférence pour la batterie et la guitare électrique donc plus généralement la musique rock. Skillet, Imagine Dragons ou Fall Out Boy, pour citer mes préférés. C'est un style de musique qui produit de l'adrénaline et me donne de l'énergie.<br>
+      Pour les mêmes raisons, j'apprécie aussi le rap, principalement Orelsan, Casseurs Flowters et Bigflo et Oli.
   	</div>
   </div>
 	</body>
