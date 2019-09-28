@@ -53,7 +53,7 @@
       <div class="error" id="msg_error"><p id="msg_error"></p></div>
       <textarea id="msg_contenu" name="msg" placeholder="Entrez le contenu du mail"><?= set_value('msg'); ?></textarea>
 
-      <br><input type="submit" onclick='mail()'></input>
+      <br><input type="submit" onclick='mail()' value='Envoyer'></input>
     </div>
   </div>
 	</body>

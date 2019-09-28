@@ -14,7 +14,7 @@
   <div id='article'>
     <h1 class='page_title'>Mon C.V.<div class="fil"><?= $fil ?></div></h1>
     <div class='contenu'>
-      <a href="<?= base_url('CV/PDF/Louka_DOZ'); ?>" id="imprimer"><h2>Cliquez ici pour la version PDF imprimable</h2></a>
+      <a href="<?= base_url('CV/PDF/LoukaDOZ'); ?>" id="imprimer"><h2>Cliquez ici pour la version PDF imprimable</h2></a>
       <div id="en-tete">
         <img id='img' src="<?= image('photo'); ?>">
         <div id="pres">
