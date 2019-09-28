@@ -16,6 +16,6 @@
 
   function pdf($file){
 
-    return base_url('assets/pdf/'.$file.'.pdf');
+    return base_url('assets/PDF/'.$file.'.pdf');
   }
 ?>

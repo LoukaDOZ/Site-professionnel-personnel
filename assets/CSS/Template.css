@@ -57,6 +57,10 @@ nav a:hover {
   margin-right: 4%;
 }
 
+#retour_phone {
+  display: none;
+}
+
 .naviguation {
   display: list-item;
   padding: 8% 4% 8% 10%;

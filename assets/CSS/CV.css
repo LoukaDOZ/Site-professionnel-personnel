@@ -99,7 +99,7 @@
   position: absolute;
   left: 1%;
   width: 17%;
-  height: auto;
+  max-height: 90%;
   top: 5%;
   bottom: 5%;
 }
