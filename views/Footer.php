@@ -27,7 +27,13 @@
         <li><a href="<?= base_url('Aide') ?>">Aide</a></li>
       </ul>
     </div>
-    	<a href="https://www.iut-fbleau.fr" target="_blank"><img id="logo" src="<?= image('logo'); ?>" alt="Logo IUT Sénart Fontainebleau" title="Cliquez sur l'image pour accéder au site de l'IUT de Sénart Fontainebleau"></a>
+    <div class="link">
+      <ul>
+        <li><a href="<?= base_url($page.'?lang=fr') ?>">Français</a></li>
+        <!--<li><a href="<?= base_url($page.'?lang=eng') ?>">English</a></li>-->
+      </ul>
+    </div>
+    	<a href="https://www.iut-fbleau.fr" target="_blank"><img id="logo" src="<?= image('logo'); ?>" alt="Logo IUT Sénart Fontainebleau" title="Accéder au site web"></a>
 	</div>
 
 </body>

@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Etudes'); ?>" />
-    <link rel="stylesheet" href="<?= css('Queries/Queries'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 
@@ -31,12 +31,12 @@
   			<li>JavaScript</li>
   		</ul>
   		Après avoir réalisé plusieurs projets, surtout en JavaScript, dont un pour le baccalauréat, j'ai commencé à vraiment apprécier la programmation.<br><br>
-  		De la même manière que les Legos, chaque ligne de code représente une pièce, qui une fois toutes assemblées, forme l'édifice qu'est le programme. Ce que j'aime aussi, c'est de pouvoir voir le programme évoler à chaque ligne ajoutée, ce qui permet de bien mieux suivre l'avancement et permet de faire des tests, c'est vraiment très pratique.<br><br>
+  		De la même manière que les Legos, chaque ligne de code représente une pièce, qui une fois toutes assemblées, forment l'édifice qu'est le programme. Ce que j'aime aussi, c'est de pouvoir voir le programme évoler à chaque ligne ajoutée, ce qui permet de bien mieux suivre l'avancement et permet de faire des tests, c'est vraiment très pratique.<br><br>
   		Voyant une meilleure opportunité pour moi dans un milieu en évolution constante avec le développement rapide des technologies, je me suis tourné vers des études d'informatique.
   		<span class="ancres" id="conclusion"></span>
   		<h2>Le futur que je me souhaite</h2>
-  		Aujourd'hui, pour mon interêt personnel, je refais d'anciens projets et je réalise quelques jeux que je n'ai pas encore terminés car ils sont un peu ambicieux pour être fait seul.<br><br>
-  		Sachant celà, je souhaite de tout coeur pouvoir m'épanouir en tant que programmeur dans le domaine du jeu vidéo, participer à de grands projets et travailler avec une équipe.<br>
+  		Aujourd'hui, pour mon interêt personnel, je refais d'anciens projets et je réalise quelques jeux de mon côté.<br><br>
+  		Sachant celà, je souhaite de tout coeur pouvoir m'épanouir en tant que programmeur dans le domaine du jeu vidéo, participer à de grands projets et travailler avec une équipe. Participer au mélange des connaissances, des compétences, vivre une aventure et obtenir un rendu final dont je serais fière d'avoir participé.<br>
       Réaliser des projets est vraiment le plus motivant pour moi.
     </div>
   </div>

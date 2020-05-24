@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Voyages'); ?>" />
-    <link rel="stylesheet" href="<?= css('Queries/Queries'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 

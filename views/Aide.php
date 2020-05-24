@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <link rel="stylesheet" href="<?= css('Queries/Queries'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 
@@ -22,17 +22,23 @@
         Vous croiserez aussi des liens durant votre visite, notament vers d'autres sites si vous souhaitez les visiter. Ces liens apparaissent <a href=''>comme ceci</a> (celui-çi est innutile).<br>
         Pour finir, retrouvez des liens vers d'autres sites et pages, situés en <a href='#footer'>bas de la page</a>.
 
+        <span class="ancres" id="lang"></span>
+            <h2>English version?</h2>
+
+        Change for the english version <a href="<?= base_url('Aide'/*?lang=eng'*/); ?>">here</a> (work in progress),<br>
+        Or scroll at the <a href="#footer">bottom of the page</a>.
+
         <span class="ancres" id="probleme"></span>
     		<h2>Un problème?</h2>
 
-        Vous pouvez signaler un problème <a href="<?= base_url('Signaler'); ?>">ici</a>.<br>
-        Un lien est aussi disponible en <a href="#footer">pied de page</a>.
+        Vous pouvez signaler un problème <a href="<?= base_url('Signaler'); ?>">ici</a>,<br>
+        Ou bien accéder au lien disponible en <a href="#footer">pied de page</a>.
 
         <span class="ancres" id="contact"></span>
       	<h2>Comment me contacter?</h2>
 
-        Vous pouvez me contacter <a href="<?= base_url('Contact'); ?>">ici</a>.<br>
-        Un lien est aussi disponible en <a href="#footer">pied de page</a>.
+        Vous pouvez me contacter <a href="<?= base_url('Contact'); ?>">ici</a>,<br>
+        Ou bien accéder au lien disponible en <a href="#footer">pied de page</a>.
     </div>
   </div>
 	</body>

@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('CV'); ?>" />
-    <link rel="stylesheet" href="<?= css('Queries/Queries_PDF'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 

@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Projets'); ?>" />
-    <link rel="stylesheet" href="<?= css('Queries/Queries_projets'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 

@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <link rel="stylesheet" href="<?= css('Queries/Queries'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 
@@ -15,7 +15,8 @@
     <div class="contenu">
   		<h2>La programmation</h2>
   		J'aime beaucoup la programmation car il y a un vrai sentiment de progression. A chaque ligne de code rajoutée, on peut clairement voir le projet avancer, s'approcher du but.
-  		De plus, c'est à la fois personnel, car chacun voit et construit un programme de façon différente, mais aussi collectif, puisque souvent, les projets son réalisés en équipe, et il faut que notre programme soit compris par les autres et adaptable à celui des autres, chacun peut proposer ses idées, son point de vue et ses méthodes dans le but d'atteindre un objectif commun.
+  		De plus, c'est à la fois personnel, car chacun voit et construit un programme de façon différente, mais aussi collectif, puisque souvent, les projets son réalisés en équipe, et il faut que notre programme soit compris par les autres et adaptable à celui des autres, chacun peut proposer ses idées, son point de vue et ses méthodes dans le but d'atteindre un objectif commun.<br><br>
+      J'apprécie réaliser du front-end, mais ce que je préfère le plus c'est réaliser du back-end, coder des fonctions, des méthodes, des classes qui pourront être utilisées par d'autres personne. C'est pour cette raison que j'aime programmmer dans tous les domaines, le web, les jeux vidéos, l'intelligence artificielle ou encore l'application.
 
   		<h2>Les jeux vidéos</h2>
   		Depuis longtemps j'aime me divertir avec les jeux vidéos. J'ai une préférence pour les jeux avec une belle écriture des personnages et de l'Histoire, tel qu'<a href="https://undertale.com/" target="_blank">Undertale</a>, ou des jeux d'équipe dynamiques, tel qu'<a href="https://playoverwatch.com/fr-fr/" target="_blank">Overwacth</a> par exemple.<br>
@@ -28,9 +29,14 @@
   		<h2>L'aéronautique</h2>
   		L'aéronautique me passionne depuis longtemps et plus précisément l'aéronautique civile. L'avion est pour moi, une des plus belles inventions de l'Homme. Il allie beauté et modernité et ce démarque facilement des autres moyens de transport, avec son côté "lien entre ciel et terre".
 
+		<h2>Les mécanismes</h2>
+		Ce qui me passionne c'est le fonctionnement des choses. Les mécanismes, les conditions pour que ça fonctionne. Ces choses que l'on ne voit pas, si on ne s'y attarde pas, mais qui sont vitale au fonctionnement.<br>
+		Les mécaniques du programme derrière les mécaniques de gameplay d'un jeu ou bien les mécanismes et les mécaniques physiques qui font voler un avion par exemple.
+
   		<h2>L'art</h2>
   		J'aime les jolies association de couleurs, j'aime l'art lorsqu'il a pour but de plaire, d'être beau. Je trouve qu'un message passe mieux si il est inscrit dans une belle oeuvre.<br>
-  		J'aime particulièrement le style sobre, avec des couleurs et des formes unies. Notamment le noir, qui s'associe aisément avec n'importe quelle autre couleur et la fait ressortir.
+  		J'aime particulièrement le style sobre, avec des couleurs et des formes unies. Notamment le noir, qui s'associe aisément avec n'importe quelle autre couleur et la fait ressortir.<br>
+		Le dessin aussi un style que j'apprécie.
 
   		<h2>Le sport</h2>
   		J'ai plutôt tendance à apprécier les sports rapides ou en équipe, comme les sports de raquette en général, le tennis, le badminton, le tennis de table ou aussi le rugby par exemple.

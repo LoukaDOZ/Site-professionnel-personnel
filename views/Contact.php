@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Contact'); ?>" />
-    <link rel="stylesheet" href="<?= css('Queries/Queries'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
     <script src="<?php echo js('Mail'); ?>"></script>
 
 </head>
@@ -30,30 +30,29 @@
         </div>
       </div>
       <h3>M'envoyer un email</h3>
+      <h5 class="warning">Note : cet hébergeur, sur lequel mon site est posté, ne me permet pas d'envoyer directement des emails. Votre application de messagerie par défaut s'ouvrira avec les informations que vous rentrez ci-dessous, vous n'aurez plus qu'à envoyer l'email.</h5>
       <p class='obligatoire'>* Champs obligatoires</p>
 
       <h4 id='genre'><span class='obligatoire'>*</span> Vous êtes?</h4>
-      <div class="error"><p id="sexe_error"></p></div>
+      <p id="sexe_error" class="error">Complétez ce champ s'il vous plaît.</p>
       <input type='radio' id='1' name="genre" value="mme" <?php if(set_value('genre') === 'mme') echo "checked='checked'"; ?>></input>
       <label for='1'>Madame</label>
       <input type='radio' id='2' name="genre" value="m" <?php if(set_value('genre') === 'm') echo "checked='checked'"; ?>></input>
       <label for='2'>Monsieur</label>
-      <input type='radio' id='3' name="genre" value="autre" <?php if(set_value('genre') === 'autre') echo "checked='checked'"; ?>></input>
-      <label for='3'>Autre</label>
 
       <h4 id='nom'><span class='obligatoire'>*</span> Votre prénom et nom :</h4>
-      <div class="error" id="nom_error"><p id="nom_error"></p></div>
-  		<textarea id="nom_contenu" name="nom" placeholder="Entrez votre nom"><?= set_value('nom'); ?></textarea>
+      <p id="nom_error" class="error">Complétez ce champ s'il vous plaît.</p>
+  		<textarea id="nom_contenu" name="nom" placeholder="Entrez votre prénom et nom"><?= set_value('nom'); ?></textarea>
 
       <h4 id='objet'><span class='obligatoire'>*</span> L'objet du mail :</h4>
-      <div class="error" id="objet_error"><p id="objet_error"></p></div>
+      <p id="objet_error" class="error">Complétez ce champ s'il vous plaît.</p>
   		<textarea id="objet_contenu" name="objet" placeholder="Entrez l'objet du mail"><?= set_value('objet'); ?></textarea>
 
       <h4 id='msg'><span class='obligatoire'>*</span> Contenu du mail :</h4>
-      <div class="error" id="msg_error"><p id="msg_error"></p></div>
+      <p id="msg_error" class="error">Complétez ce champ s'il vous plaît.</p>
       <textarea id="msg_contenu" name="msg" placeholder="Entrez le contenu du mail"><?= set_value('msg'); ?></textarea>
 
-      <br><input type="submit" onclick='mail()' value='Envoyer'></input>
+      <br><input type="submit" onclick="mail('fr')" value='Envoyer'></input>
     </div>
   </div>
 	</body>

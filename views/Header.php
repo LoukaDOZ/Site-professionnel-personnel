@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Template'); ?>" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
     <title>Louka DOZ</title>
 
 </head>

@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Projets'); ?>" />
-    <link rel="stylesheet" href="<?= css('Queries/Queries_projet_description'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 
@@ -17,27 +17,11 @@
       <div id='retour_phone'>
         <a href="<?= base_url('Projets'); ?>" class='naviguation'><img src="<?= image('fleche_short_gauche') ?>">Retour</a>
       </div>
-      
-      <span class="ancres" id='maj'></span>
-      <h3>Mises à jour</h3>
-      <div class='row'>
-        <div>
-          Septembre 2019
-        </div>
-        <div>
-          <span>Refonte totale du css vers un style et des couleurs qui me correspondent plus, plus modernes, plus lisses. Refonte avec du PHP avec le framework <a href='https://codeigniter.com/' target="_blank">CodeIgniter</a>.<span>
-        </div>
-          <div>
-            Mars 2019
-          </div>
-          <div>
-            Projet achevé.
-          </div>
-      </div>
 
       <span class="ancres" id="description"></span>
       <h2>Description</h2>
-      <a href="http://dwarves.iut-fbleau.fr/~dozl/Louka_DOZ/" target="_blank" id='link'>Liens vers le site</a>
+      <a href="http://dwarves.iut-fbleau.fr/~dozl/Louka_DOZ/" target="_blank" id='link'>Liens vers le site</a><br>
+      <a href="https://github.com/LoukaDOZ/Site-professionnel-personnel" target="_blank" id='link'>Liens vers GitHub</a>
       <p class='description'>Ce site web réalisé seul, dans le cadre de ma première année en DUT Informatique, est une sorte de C.V. amélioré avec beaucoup plus d'informations personnelles.<br>
       Ce site est dabord dédié à la recherche de stage de ma seconde année en DUT Informatique.<br>
       Il était de base en HTML et CSS uniquement, avant que je ne le modifie en septembre 2019, en y ajoutant du PHP.<br>
@@ -59,6 +43,11 @@
           Signaler un problème
         </div>
       </div>
+
+      <span class="ancres" id="apercu"></span>
+      <h2>Aperçu</h2>
+      <p>Le site en question est celui sur lequel vous naviguez en ce moment.</p>
+
     </div>
   </div>
 </body>

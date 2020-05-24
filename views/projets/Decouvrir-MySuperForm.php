@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?= css('Projets'); ?>" />
-    <link rel="stylesheet" href="<?= css('Queries/Queries_projet_description'); ?>" />
+    <link rel="stylesheet" href="<?= css('Queries'); ?>" />
 
 </head>
 
@@ -17,27 +17,11 @@
       <div id='retour_phone'>
         <a href="<?= base_url('Projets'); ?>" class='naviguation'><img src="<?= image('fleche_short_gauche') ?>">Retour</a>
       </div>
-      
-      <span class="ancres" id='maj'></span>
-      <h3>Mises à jour</h3>
-      <div class='row'>
-        <div>
-          Juillet 2019 - Août 2019
-        </div>
-        <div>
-          Refonte totale du css vers un style et des couleurs qui me correspondent plus, amélioration, optimisation du site.
-        </div>
-          <div>
-            Juin 2019
-          </div>
-          <div>
-            Projet achevé.
-          </div>
-      </div>
 
       <span class="ancres" id="description"></span>
       <h2>Description</h2>
-      <a href="http://dwarves.iut-fbleau.fr/~dozl/MySuperForm/" target="_blank" id='link'>Liens vers le site</a>
+      <a href="http://dwarves.iut-fbleau.fr/~dozl/MySuperForm/" target="_blank" id='link'>Liens vers le site</a><br>
+      <a href="https://github.com/LoukaDOZ/MySuperForm" target="_blank" id='link'>Liens vers GitHub</a>
       <p class='description'>MySuperForm est un projet de site web en bonôme, réalisé dans le cadre de ma première année en DUT Informatique.<br>
       Le principe du site est de pouvoir créer et répondre à des formulaires de façon anonyme.<br>
       Utilisation du framework <a href='https://codeigniter.com/' target="_blank">CodeIgniter</a>, du language PHP et d'une base de données associée au site, pour la première fois dans un projet.<br>
@@ -94,6 +78,98 @@
           Regarder les résultats du formulaire, voir le pourcentage de réponses à une question
         </div>
       </div>
+
+      <span class="ancres" id="apercu"></span>
+      <h2>Aperçu</h2>
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+       <!-- Full-width images with number and caption text -->
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/home'); ?>" style="width:100%">
+         <div class="text">Page d'accueil</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/create'); ?>" style="width:100%">
+         <div class="text">Créer un compte</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/connect'); ?>" style="width:100%">
+         <div class="text">Se connecter</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/gerer'); ?>" style="width:100%">
+         <div class="text">Gérer son compte</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/perso'); ?>" style="width:100%">
+         <div class="text">Personnaliser son profil</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/formulaires'); ?>" style="width:100%">
+         <div class="text">Gérer ses formulaires</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/modif'); ?>" style="width:100%">
+         <div class="text">Créer ou modifier ses formulaires</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/find_clef'); ?>" style="width:100%">
+         <div class="text">Répondre à un formulaire avec sa clé</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/find'); ?>" style="width:100%">
+         <div class="text">Répondre à un formulaire mis en public</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/rep'); ?>" style="width:100%">
+         <div class="text">Répondre à un formulaire</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/rep_end'); ?>" style="width:100%">
+         <div class="text">Après avoir répondu à un formulaire</div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="<?= image($file_name.'/res'); ?>" style="width:100%">
+         <div class="text">Voir les résultats de ses formulaires</div>
+       </div>
+
+       <!-- Next and previous buttons -->
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+       <span class="dot" onclick="currentSlide(4)"></span>
+       <span class="dot" onclick="currentSlide(5)"></span>
+       <span class="dot" onclick="currentSlide(6)"></span>
+       <span class="dot" onclick="currentSlide(7)"></span>
+       <span class="dot" onclick="currentSlide(8)"></span>
+       <span class="dot" onclick="currentSlide(9)"></span>
+       <span class="dot" onclick="currentSlide(10)"></span>
+       <span class="dot" onclick="currentSlide(11)"></span>
+       <span class="dot" onclick="currentSlide(12)"></span>
+      </div>
+
+      <script src="<?php echo js('Slides'); ?>"></script>
+
     </div>
   </div>
 </body>
