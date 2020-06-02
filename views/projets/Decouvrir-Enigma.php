@@ -36,7 +36,7 @@
             La totalité du projet est en Java avec l'aide de la <a href="https://libgdx.badlogicgames.com/" target="_blank">LibGdx</a> pour la partie jeu notamment mais elle est aussi utilisée dans l'éditeur, ainsi que de Swing pour l'interface homme-machine.<br>
             Nous avons travaillé avec la méthode SCRUM tout le long du projet.<br>
             J'ai eu l'occasion de programmer plusieurs aspects du projet :<br>
-            - Création d'un ensemble d'éléments personnalisables pour le "look and feel" de l'application afin d'avoir un syle plus original que me style de Swing<br>
+            - Création d'un ensemble d'éléments personnalisables pour le "look and feel" de l'application afin d'avoir un style plus original que celui de Swing<br>
             - Création de toute la partie énigmes, conditions, opérations<br>
             - Création des affichages de la partie jeu : lancer/créer une partie, salle d'attente<br>
             - Création de l'exportation et de l'importation de cartes et parties<br>
